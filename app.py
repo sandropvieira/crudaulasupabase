@@ -39,7 +39,7 @@ def delete_aluno(id):
 st.set_page_config(page_title="CRUD Alunos", layout="centered")
 st.title("📘 CRUD com Streamlit + Supabase")
 
-tab_ver, tab_criar, tab_atualizar, tab_deletar = st.tabs(["👀 Ver Alunos", "➕ Criar Aluno", "Atualizar Alunos", "❌ Deletar Alunos"])
+tab_ver, tab_criar, tab_atualizar, tab_deletar = st.tabs(["👀 Ver Alunos", "➕ Criar Aluno", "✏️ Atualizar Alunos", "❌ Deletar Alunos"])
 
 # =============================
 # ABA VER ALUNOS
